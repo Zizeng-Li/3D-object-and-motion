@@ -1,0 +1,498 @@
+The web program is in link
+https://macoutreach.rocks/share/8005a77f
+ 
+pi = 0.1699142857143*8 - 19.0571428571*2 +736
+
+tree =
+
+[ cylinder 4 50
+|> matte Color.darkBrown
+|> move3D (0, 0, 25)
+, cone 30 30
+|> matte Color.darkGreen
+|> move3D (0, 0, 10)
+, cone 25 30
+|> matte Color.darkGreen
+|> move3D (0, 0, 25)
+, cone 20 30
+|> matte Color.darkGreen
+|> move3D (0, 0, 40)
+]
+|> group3D
+
+flower1 =
+[ sphere 3
+|> customMat Color.red 0.3 0.3
+|> move3D (0, 0, 30)
+, box 2 2 20
+|> customMat Color.green 0.3 0.3
+|> move3D (0, 0, 20)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 10
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 20
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 30
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 40
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 50
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 60
+|> move3D (0, 0, 30)
+]
+|> group3D
+|> move3D(70,70,-10)
+flower2 =
+[ sphere 3
+|> customMat Color.red 0.3 0.3
+|> move3D (0, 0, 30)
+, box 2 2 30
+|> customMat Color.green 0.3 0.3
+|> move3D (0, 0, 15)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 10
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 20
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 30
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 40
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 50
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 60
+|> move3D (0, 0, 30)
+]
+|> group3D
+|> move3D(80,0,0)
+flower3 =
+[ sphere 3
+|> customMat Color.red 0.3 0.3
+|> move3D (0, 0, 30)
+, box 2 2 30
+|> customMat Color.green 0.3 0.3
+|> move3D (0, 0, 15)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 10
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 20
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 30
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 40
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 50
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 60
+|> move3D (0, 0, 30)
+]
+|> group3D
+|> rotateZ3D 180
+|> move3D(0,70,0)
+flower4 =
+[ sphere 3
+|> customMat Color.red 0.3 0.3
+|> move3D (0, 0, 30)
+, box 2 2 20
+|> customMat Color.green 0.3 0.3
+|> move3D (0, 0, 20)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 10
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 20
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 30
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 40
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.purple 0.3 0.3
+|> rotateX3D 50
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 60
+|> move3D (0, 0, 30)
+]
+|> group3D
+|> move3D(50,-70,-10)
+flower5 =
+[ sphere 3
+|> customMat Color.red 0.3 0.3
+|> move3D (0, 0, 40)
+, box 2 2 40
+|> customMat Color.green 0.3 0.3
+|> move3D (0, 0, 20)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 10
+|> move3D (0, 0, 40)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 20
+|> move3D (0, 0, 40)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 30
+|> move3D (0, 0, 40)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 40
+|> move3D (0, 0, 40)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 50
+|> move3D (0, 0, 40)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 60
+|> move3D (0, 0, 40)
+]
+|> group3D
+|> move3D(-60,60,0)
+flower6 =
+[ sphere 3
+|> customMat Color.red 0.3 0.3
+|> move3D (0, 0, 40)
+, box 2 2 40
+|> customMat Color.green 0.3 0.3
+|> move3D (0, 0, 20)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 10
+|> move3D (0, 0, 40)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 20
+|> move3D (0, 0, 40)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 30
+|> move3D (0, 0, 40)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 40
+|> move3D (0, 0, 40)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 50
+|> move3D (0, 0, 40)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 60
+|> move3D (0, 0, 40)
+]
+|> group3D
+|> move3D(70,-60,0)
+
+flower7 =
+[ sphere 3
+|> customMat Color.red 0.3 0.3
+|> move3D (0, 0, 30)
+, box 2 2 30
+|> customMat Color.green 0.3 0.3
+|> move3D (0, 0, 15)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 10
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 20
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 30
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 40
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 50
+|> move3D (0, 0, 30)
+, rectangle3D 3 20
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 60
+|> move3D (0, 0, 30)
+]
+|> group3D
+|> rotateZ3D 180
+|> move3D(0,-110,0)
+
+flower8 =
+[ sphere 3.5
+|> customMat Color.red 0.3 0.3
+|> move3D (0, 0, 30)
+, box 2.5 2.5 60
+|> customMat Color.green 0.3 0.3
+|> move3D (0, 0, 0)
+, rectangle3D 5 25
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 10
+|> move3D (0, 0, 30)
+, rectangle3D 5 25
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 20
+|> move3D (0, 0, 30)
+, rectangle3D 5 25
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 30
+|> move3D (0, 0, 30)
+, rectangle3D 5 25
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 40
+|> move3D (0, 0, 30)
+, rectangle3D 5 25
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 50
+|> move3D (0, 0, 30)
+, rectangle3D 5 25
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 60
+|> move3D (0, 0, 30)
+]
+|> group3D
+|> rotateZ3D 210
+|> move3D(-75,-97,30)
+
+flower9 =
+[ sphere 3.3
+|> customMat Color.red 0.3 0.3
+|> move3D (0, 0, 30)
+, box 2.4 2.4 60
+|> customMat Color.green 0.3 0.3
+|> move3D (0, 0, 0)
+, rectangle3D 4.5 23
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 10
+|> move3D (0, 0, 30)
+, rectangle3D 4.5 23
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 20
+|> move3D (0, 0, 30)
+, rectangle3D 4.5 23
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 30
+|> move3D (0, 0, 30)
+, rectangle3D 4.5 23
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 40
+|> move3D (0, 0, 30)
+, rectangle3D 4.5 23
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 50
+|> move3D (0, 0, 30)
+, rectangle3D 4.5 23
+|> customMat Color.yellow 0.3 0.3
+|> rotateX3D 60
+|> move3D (0, 0, 30)
+]
+|> group3D
+|> move3D(-80,0,30)
+myEntities model =
+let
+useTexture = getTexture model.textureLoader.textures
+bee = [ ellipsoid 15 15 25 model.meshStore
+|> textured (useTexture "stripes") 0 0.5
+|> rotate3D (degrees 90) (degrees 180) (degrees 180)
+, ellipsoid 2 3 5 model.meshStore
+|> metallic Color.grey 0.2
+|> rotateY3D (degrees 30)
+|> move3D (-22,5,4)
+, ellipsoid 2 3 5 model.meshStore
+|> metallic Color.grey 0.2
+|> rotateY3D (degrees 30)
+|> move3D (-22,-5,4)
+]
+|> group3D
+
+in
+[ animationPieces
+[(pi
+, \ t -> bee |> move3D (0, 50, 50)
+|> rotateZ3D t
+|> move3D (30*cos(model.time),40*cos(model.time),15*sin(model.time))
+)
+]
+( \ _ -> bee |> move3D (0, -50, 50) )
+model.time
+-- Making an ellipsoid requires you to specify the length, width, and height. You also need to pass in the model.
+, flower1
+, flower2
+, flower3
+, flower4
+, flower5
+, flower6
+, flower7
+, flower8
+, flower9
+, tree
+
+]
+
+-- move / edit the light
+light =
+pointLight
+{ position = Point3d.centimeters 0 0 100 -- position of the light
+, chromaticity = Light.sunlight -- the colour of the light (see https://package.elm-lang.org/packages/ianmackenzie/elm-3d-scene/latest/Scene3d-Light#Chromaticity)
+, intensity = LuminousFlux.lumens 10000 -- how intense the light is
+}
+showLight = True -- whether to show the light ball or not
+
+-- Use "loadTexture [name] [url]" to load in texture images from the Internet!
+-- Give each one a unique name.
+-- You can list many of them!
+myTextures =
+[ loadTexture "example" "Put an image URL here!"
+]
+
+-- Usage: `svgTexture "name" "name`, where shape is any 2D shape or group
+-- Give each one a unique name.
+-- You can list many of them!
+svgTextures =
+[ svgTexture "stripes" stripes
+, svgTexture "x" (text "xxxxxxx"|>size 25|>centered|>filled white |> move (0,-5))
+, svgTexture "y" (text "yyyyyyy"|>size 25|>centered|>filled white)
+, svgTexture "z" (text "zzzzzzz"|>size 25|>centered|>filled white |> move (0,-5))
+]
+
+-- SVG textures are 50 by 50
+stripes =
+group
+[
+rect 50 5 |> filled yellow |> move (0,-22.5)
+, rect 50 5 |> filled black |> move (0,-17.5)
+, rect 50 5 |> filled yellow |> move (0,-12.5)
+, rect 50 5 |> filled black |> move (0,-7.5)
+, rect 50 5 |> filled yellow |> move (0,-2.5)
+, rect 50 5 |> filled black |> move (0,2.5)
+, rect 50 5 |> filled yellow |> move (0,7.5)
+, rect 50 25 |> filled lightBrown |> move (0,22.5)
+]
+
+-- Put your 2D shapes here, and they will be overlayed on top of the screen!
+overlay : Model -> List (Shape Msg)
+overlay model =
+[ angleDisplay model
+-- , cameraControls model
+]
+
+-- This colour is used to create the floor. If you want custom colours, use Color.hsl or Color.rgb!
+floorColour = Color.green
+
+-- Floor size, in metres. Set to 0 to disable.
+floorSize = 2.7
+
+-- Here you can specify what images to use to create the skybox. Just replace "todo" with a link to an image. (Keep the quotes, though!)
+skyboxType =
+Skybox.URLSkybox textureBottom textureTop textureSide1 textureSide2 textureSide3 textureSide4
+-- Some other options (comment in the one above and comment one of these out)
+-- Skybox.GSVGSkybox False skyboxTop skyboxSides skyBoxBottom
+-- Skybox.GSVGSphericalSkybox False skyboxTop
+-- Skybox.URLSphericalSkybox "https://cschank.github.io/img/milky.jpg"
+
+-- this is 50 by 50
+skyboxTop : Shape msg
+skyboxTop =
+group
+[
+square 50 |> filled lightBlue
+, circle 10 |> filled yellow
+]
+
+-- this is 200 by 50
+skyboxSides : Shape msg
+skyboxSides =
+group
+[
+rect 200 50 |> filled lightBlue |> move (0,25)
+, rect 200 50 |> filled green |> move(0,-25)
+, triangle 10 |> filled darkGreen |> rotate (degrees -30) |> move (0,5)
+, text "abcdefghijklmnopqrstuvwxyz" |> centered |> size 16 |> filled red
+]
+
+-- this is 50 by 50
+skyBoxBottom : Shape msg
+skyBoxBottom =
+group
+[
+]
+
+textureBottom : String
+textureBottom =
+"todo"
+
+textureTop : String
+textureTop =
+"todo"
+
+textureSide1 : String
+textureSide1 =
+"todo"
+
+textureSide2 : String
+textureSide2 =
+"todo"
+
+textureSide3 : String
+textureSide3 =
+"todo"
+
+textureSide4 : String
+textureSide4 =
+"todo"
+
+-- sequence a series of animation pieces together into one
+animationPieces : List (Float, Float -> anytype) -> (Float -> anytype) -> Float -> anytype
+animationPieces intervals finalAnimation time =
+case intervals of
+(duration, animation) :: rest ->
+if time <= duration then
+animation time
+else
+animationPieces rest finalAnimation (time - duration)
+[] ->
+finalAnimation time
